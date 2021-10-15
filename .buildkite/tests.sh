@@ -71,4 +71,4 @@ echo "Execute tests"
   +test
 
 echo "Execute fail test"
-bash -c "! $earthly --ci ./examples/tests/fail+test-fail"
+bash -c "! $earthly --ci ./tests/fail+test-fail"
